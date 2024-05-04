@@ -5,7 +5,7 @@ import "./styles/tailwind.css";
 
 function App() {
   return (
-    <div className="bg-black min-h-screen flex justify-center h-screen">
+    <div className="bg-black min-h-screen flex justify-center">
       <Router>
         <Routes>
           <Route path="/" element={<Home />} />
