@@ -11,7 +11,7 @@ function Video() {
     };
     return (
         <>
-            <div className="flex justify-center mt-5 mb-5 h-[300px] sm:h-[450px] md:h-[500px] lg:h-[600px] w-full">
+            <div className="flex justify-center mt-5 mb-5 h-[300px] sm:h-[450px] md:h-[500px] lg:h-[600px] lg:w-[80%] md:w-full">
                 <YouTube videoId={videoId} opts={opts} className="rounded-lg w-full shadow-lg" />
             </div>
         </>

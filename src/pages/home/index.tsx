@@ -1,14 +1,14 @@
 import Hero from "../../components/Hero";
-import Video from "../../components/Video"
-import DetailServices from "../../components/DetailServices"
+import DetailServices from "../../components/DetailServices";
+import Gallery from "../../components/Gallery";
 
 function Home() {
   return (
     <>
-      <div className="lg:w-[80%] md:w-full">
+      <div className="min-h-screen flex flex-col items-center justify-center">
         <Hero />
-        <Video />        
         <DetailServices />
+        <Gallery />
       </div>
     </>
   );

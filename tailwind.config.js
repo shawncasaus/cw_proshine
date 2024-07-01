@@ -13,9 +13,22 @@ module.exports = {
         },
       },
       fontFamily: {
-        body: ["Nunito"],
+        sans: ['Roboto', 'Helvetica', 'Arial', 'sans-serif'],
+        serif: ['Georgia', 'Cambria', 'Times New Roman', 'serif'],
+        mono: ['Menlo', 'Monaco', 'Consolas', 'monospace'],
       },
     },
   },
-  plugins: [],
+  plugins: [
+    function ({ addUtilities }) {
+      const newUtilities = {
+        '.text-stroke-3-black': {
+          WebkitTextStrokeWidth: '1px',
+          WebkitTextStrokeColor: 'black',
+        },
+      };
+
+      addUtilities(newUtilities, ['responsive', 'hover']);
+    },
+  ],
 };
