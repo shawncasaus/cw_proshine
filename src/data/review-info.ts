@@ -1,4 +1,4 @@
-const DetailInfo = [
+const ReviewInfo = [
   {
     heading: "Interior Detailing Services",
     items: [
@@ -36,4 +36,4 @@ const DetailInfo = [
   },
 ];
 
-export default DetailInfo;
+export default ReviewInfo;
