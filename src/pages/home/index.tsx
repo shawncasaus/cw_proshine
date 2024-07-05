@@ -1,6 +1,6 @@
 import Hero from "../../components/Hero";
 import DetailServices from "../../components/DetailServices";
-import Gallery from "../../components/Gallery";
+import Reviews from "../../components/Reviews";
 
 function Home() {
   return (
@@ -8,7 +8,7 @@ function Home() {
       <div className="min-h-screen flex flex-col items-center justify-center">
         <Hero />
         <DetailServices />
-        <Gallery />
+        <Reviews />
       </div>
     </>
   );
