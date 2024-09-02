@@ -13,8 +13,9 @@ function Reviews() {
                 <div className="flex flex-wrap justify-between detail-services-container">
                   {ReviewInfo.map((item) => (
                     <ReviewTile
-                      heading={item.heading}
-                      items={item.items}
+                      stars={item.stars}
+                      name={item.name}
+                      reviewText={item.reviewText}
                     />
                   ))}
                 </div>

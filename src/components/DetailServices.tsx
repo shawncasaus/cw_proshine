@@ -22,13 +22,13 @@ function DetailServices() {
             <h1 className="text-4xl text-[#ffffff] text-center p-3">
               How We Price Our Services
             </h1>
-            <h3 className="text-2xl text-[#ffffff] text-left p-1 mb-5">
+            <h3 className="text-xl md:text-2xl text-[#ffffff] text-left p-1 mb-5">
               Each car and owner is unique, so prices vary. We'll finalize your
               price after seeing your vehicle, but we can give you a range over
-              the phone!
+              the phone or text!
             </h3>
             <h1 className="text-4xl text-[#ffffff] text-center p-3">
-              Specialty Services)
+              Specialty Services
             </h1>
             <ul className="text-white text-lg">
               <li key={0} className="flex items-center">
