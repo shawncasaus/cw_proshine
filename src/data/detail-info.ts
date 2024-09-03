@@ -6,7 +6,7 @@ import paintCorrection from "../assets/paintCorrection.jpg";
 const DetailInfo = [
   {
     heading: "Interior Detailing Services",
-    image: ceramic,
+    image: Interior,
     items: [
       "Interior vacuum",
       "All plastic surfaces that touch the sun get UV protection applied",
@@ -27,7 +27,7 @@ const DetailInfo = [
   },
   {
     heading: "Paint Restoration Services",
-    image: Interior,
+    image: paintCorrection,
     items: [
       "Paint enchancement",
       "Water spot removal",
@@ -37,7 +37,7 @@ const DetailInfo = [
   },
   {
     heading: "Ceramic Coating Services",
-    image: paintCorrection,
+    image: ceramic,
     items: [
       "We offer a 3, 5, and 8 year Ceramic Coating",
       "Protects your cars paint from bird droppings, tree sap, dirt, hard water, etc...",

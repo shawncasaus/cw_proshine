@@ -15,7 +15,7 @@ function DetailTab({ heading, image, items }: DetailServiceProps) {
           <img
             src={image}
             alt="Description of the image"
-            className="w-96 h-54"
+            className="w-64 h-64 md:w-64 md:h-64"
           />
         </div>
         <ul className="text-white mt-4">
