@@ -1,0 +1,19 @@
+{
+    "redirects": [
+      {
+        "source": "http://www.cwproshine.com",
+        "destination": "https://cwproshine.com",
+        "permanent": true
+      },
+      {
+        "source": "http://cwproshine.com",
+        "destination": "https://cwproshine.com",
+        "permanent": true
+      },
+      {
+        "source": "https://www.cwproshine.com",
+        "destination": "https://cwproshine.com",
+        "permanent": true
+      }
+    ]
+}
