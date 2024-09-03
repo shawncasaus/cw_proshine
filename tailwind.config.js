@@ -15,6 +15,9 @@ module.exports = {
       fontFamily: {
         sans: ['Roboto', 'Helvetica', 'Arial', 'sans-serif'],
       },
+      padding: {
+        '9/16': '56.25%',
+      },
     },
   },
   plugins: [

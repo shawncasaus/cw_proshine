@@ -12,11 +12,13 @@ function DetailTab({ heading, image, items }: DetailServiceProps) {
           <h1 className="text-white text-center font-bold p-4 md:p-8 text-lg md:text-xl">
             {heading}
           </h1>
-          <img
-            src={image}
-            alt="Description of the image"
-            className="w-64 h-64 md:w-64 md:h-64"
-          />
+          <div className="relative w-full pb-9/16">
+            <img
+              src={image}
+              alt="Description of the image"
+              className="absolute inset-0 w-full h-full object-cover"
+            />
+          </div>
         </div>
         <ul className="text-white mt-4">
           {items.map((item, index) => (
