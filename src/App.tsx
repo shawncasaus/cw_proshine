@@ -7,7 +7,7 @@ import "@fortawesome/fontawesome-free/css/all.css";
 
 function App() {
   return (
-    <div className="bg-black min-h-screen flex justify-center flex-col font-sans">
+    <div className="bg-black min-h-screen flex justify-center flex-col font-sans roboto-regular">
       <Router>
         <Routes>
           <Route path="/" element={<Home />} />

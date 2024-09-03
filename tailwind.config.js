@@ -14,8 +14,6 @@ module.exports = {
       },
       fontFamily: {
         sans: ['Roboto', 'Helvetica', 'Arial', 'sans-serif'],
-        serif: ['Georgia', 'Cambria', 'Times New Roman', 'serif'],
-        mono: ['Menlo', 'Monaco', 'Consolas', 'monospace'],
       },
     },
   },
